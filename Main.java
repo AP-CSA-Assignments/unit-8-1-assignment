@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main
@@ -9,19 +8,13 @@ public class Main
   }
 
 
-  /** Precondition: No element of arr is null.
-   * Precondition: arr is non-empty
-   */
-  public static void sortAndPrintDescending(String[] arr)
+  public static int sumOfDiag(int[][] matrix)
   {
-    System.out.println("Implement me!");
+    return 0;
   }
 
-  /** Precondition: No element of arr is null.
-   * Precondition: arr is non-empty
-   */
-  public static void selectSortDescending(ArrayList<Integer> list)
+  public static int[][] productTable(final int numRows, final int numCols)
   {
-    System.out.println("Implement me!");
+    return null;
   }
 }
