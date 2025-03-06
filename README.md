@@ -1,4 +1,4 @@
-# unit-7-5-assignment
+# unit-8-1-assignment
 
 ## Git Config
 ```
@@ -23,12 +23,20 @@ After you compile the shape classes, you only need to compile and run `Main.java
 # Instructions  
 
 ## Problem 1
-Write a method, `public static void sortAndPrintDescending(String[] arr)`, which implements a selection sort on the array `arr`, so that the Strings are sorted in descending order. Then, print the sorted values on one line with a single space between values. Make sure to use the `String.compareTo()` method when sorting to decide the correct order of the Strings.
-
-For example, if `sortAndPrintDescending` is called with the array arr initialized as `{"forest", "apple", "willow", "lake", "trees"}` then the following should be printed:
-```
-willow trees lake forest apple
-```
+Write a public static method `sumOfDiag`, which takes a 2D array of int values as an input, and returns the sum of the elements in the lead diagonal as an int value. The lead diagonal is defined as the diagonal line of values starting in the top left corner and proceeding one step right and down for each value until either the bottom or right edge of the array is reached. For example, in the array represented below, the numbers in bold make up the lead diagonal.
+|||||
+|---|---|---|---|
+|**8**|	7|	5|	8|
+|1|	**3**|	9|	5|
+|3|	4|	**6**|	2|
 
 ## Problem 2
-Write a method, `public static void selectSortDescending(ArrayList<Integer> list)`, which implements a selection sort on the `ArrayList` of `Integer` objects list. The elements should be sorted in descending order, so that the largest element comes first and the smallest element comes last. For example, if the parameter list would be printed as `[4, 6, 3, 7]` before a call to `selectSortDescending`, it would be printed as `[7, 6, 4, 3]` after the method call.
+Write a public static method named `productTable` which returns a 2D array which represents a multiplication table. Each element in the array should be equal to the product (multiplication) of the indices of the cell. The method should take 2 parameters which are equal to the number of rows and number of columns of the multiplication table. For example, the call `productTable(6, 5)` should return the array represented by the table below:
+||||||
+|---|---|---|---|---|
+|0|	0	|0	|0	|0|
+|0|	1	|2	|3	|4|
+|0|	2	|4	|6	|8|
+|0|	3	|6	|9	|12|
+|0|	4	|8	|12|	16|
+|0| 5	|10	|15|	20|
